@@ -1,0 +1,26 @@
+.backtotop {
+    position: fixed;
+    right: 2em;
+    bottom: 2em;
+    display: none;
+    z-index: 1;
+}
+
+.backtotop__button {
+    background-color: var(--color-active);
+    border: 1px solid var(--color-active);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 3.5em;
+}
+
+.backtotop__button > .material-icons-outlined {
+    font-size: 2.5em;
+}
+
+#backtotop__display {
+    display: initial;
+}

@@ -1,0 +1,51 @@
+.block__container {
+    background-color: var(--color-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em;
+    height: 175px;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+}
+
+.block__icon {
+    font-size: 3em;
+}
+
+.block__min {
+    color: var(--color-red);
+}
+
+.block__max {
+    color: var(--color-active);
+}
+
+.block__avg {
+    color: var(--color-white);
+}
+
+.block__values {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25em;
+}
+
+.block__day {
+    font-size: 0.75em;
+    color: var(--color-gray2);
+}
+
+.block__title {
+
+}
+
+.block__bpm {
+    font-weight: 700;
+    font-size: 2em;
+}

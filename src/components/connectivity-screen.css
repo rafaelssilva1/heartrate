@@ -1,0 +1,43 @@
+.connectivity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-active);
+}
+
+.connectivity__face > .material-symbols-outlined {
+    font-size: 8em;
+    color: var(--color-white);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--color-default);
+} 
+
+.connectivity__title {
+    margin-bottom: 1.5em;
+    font-size: 2em;
+    color: var(--color-white);
+}
+  
+.connectivity__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    font-size: 1.25em;
+    font-weight: 300;
+    background-color: var(--color-default);
+    border: none;
+    border-radius: 8em;
+    -webkit-border-radius: 8em;
+    -moz-border-radius: 8em;
+    -ms-border-radius: 8em;
+    -o-border-radius: 8em;
+    padding: 0.5em 1.5em;
+}
+  
+  .default__button > .material-symbols-outlined {
+    color: var(--color-blue);
+  }

@@ -1,0 +1,103 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+/*Variables*/
+:root {
+  --main-font: 'Red Hat Text', sans-serif;
+  --color-active: #5251FA;
+  --color-default: #292D3F;
+  --color-white: #fff;
+  --color-yellow: #F7B500;
+  --color-green: #00CF99;
+  --color-gray: #F5F4F9;
+  --color-gray2: #7B7B7B;
+  --color-red: #FB3E08;
+}
+
+/*Global Styles*/
+html {
+  box-sizing: border-box;
+}
+
+
+html, body{
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--main-font);
+  margin: 0 auto;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--main-font);
+  padding: 0.3em 0.8em;
+  border-radius: 2em;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  -o-border-radius: 2em;
+  background-color: var(--color-default);
+  color: var(--color-white);
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+button > * {
+  font-family: var(--main-font);
+}
+
+ul {
+  list-style-type: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 1em;
+  border-bottom: 1px solid var(--color-default);
+}
+
+td {
+  text-align: center;
+}
+
+tr:hover {
+  background-color: var(--color-active);
+  color: var(--color-white);
+}
+
+/*Styles*/
+.container {
+  width: 60%;
+  margin: 2em auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+      width: 85%;
+  }
+}

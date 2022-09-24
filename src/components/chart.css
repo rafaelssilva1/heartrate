@@ -1,0 +1,23 @@
+.chart__filter, .chart__flex {
+    display: flex;
+    flex-direction: row;
+  }
+  
+.chart__filter {
+  gap: 0.5em;
+}
+
+.chart__flex {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chart__container {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .chart__flex {
+        display: initial;
+    }
+}

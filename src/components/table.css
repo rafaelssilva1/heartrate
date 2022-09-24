@@ -1,0 +1,28 @@
+.table__container {
+    margin: 1em 0;
+    overflow-x: auto;
+}
+
+.table__title {
+    margin-bottom: 0.5em;
+}
+
+.table__list {
+    width: 100%;
+}
+
+.table__headerrow {
+
+}
+
+.tablee__headercell {
+
+}
+
+.table__row {
+
+}
+
+.table__cell {
+
+}

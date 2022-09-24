@@ -1,0 +1,23 @@
+.recent__grid {
+    display: grid;
+    grid-template-columns: 66% 33%;
+    gap: 1em;
+}
+
+.recent__blocks {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.recent__title {
+    margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 768px) {
+    .recent__grid {
+        grid-template-columns: none;
+    }
+}
