@@ -2,6 +2,9 @@
  
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## node.js
+Install node.js and run it in order to use the endpoint /heartrate
+
 ## Available Scripts
 
 In the project directory, you can run:
